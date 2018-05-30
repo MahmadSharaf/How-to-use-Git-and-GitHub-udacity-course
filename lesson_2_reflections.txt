@@ -34,4 +34,13 @@ the diagram the way we do?
 
 A6. it combines the two files together; in which adds the common lines and then
 the new lines that were newly added; but do not the case when there some files
-were deleted from the original version. Pretty obvious  
+were deleted from the original version. Pretty obvious
+
+Q.7 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A.7 Hmm, As I was confused in question 4 about the situation when there are modified 
+lines on both file we trying to merge, and the answer is that we will look at them
+manually and decide what to do them. The pro is that it saves unnecessary wasted
+time of looking for common lines and add them and search of the new lines added
+and add them; while the con happen when it does not know which modified lines
+best suit me and I have to look into them manually.
