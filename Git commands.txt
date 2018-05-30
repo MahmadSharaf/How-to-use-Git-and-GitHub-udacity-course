@@ -36,3 +36,10 @@ git checkout branch_name: switch to the branch_name branch.
 
 Merging:
 git merge first_branch second_branch: merges two branches together
+
+
+Collaboration:
+git remote: to view and create remotes
+git remote add referal_name link: To add a repository on GitHub as a remote.
+git remote -v: v stands for verbose that means that git will get more information.
+git push: to send my changes to the remote
