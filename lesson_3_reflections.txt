@@ -1,1 +1,5 @@
-Q.
+Q1. Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+Because it might get conflict while working on a common file and the update discards
+all unsaved progess.
