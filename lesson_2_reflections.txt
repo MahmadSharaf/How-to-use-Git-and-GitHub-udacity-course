@@ -24,3 +24,7 @@ A4. branches are used when we want to a separate edition of the current files
 without losing the original files. "git branch branch_name" to create a new file
 "git checkout branch_name" to commit changes to this branch and "git branch" to
 see the branches you have and which one is checked out.
+
+A5. How do the diagrams help you visualize the branch structure?
+
+A5. flowchart diagrams acts like a tree makes it easy to understand
