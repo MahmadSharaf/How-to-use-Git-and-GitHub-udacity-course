@@ -1,8 +1,8 @@
 Q1. Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-Because it might get conflict while working on a common file and the update discards
-all unsaved progess.
+A1.Because it might get conflict while working on a common file and the update discards
+all unsaved progress.
 
 Q2. Describe the differences between forks, clones, and branches.
 When would you use one instead of another?
@@ -12,4 +12,6 @@ and add it at my account.
 Clones: takes a copy remotely to a local side and it can be local to local.
 Branches: It is not related to them I guess, it creates a new edition or a separated
 version than the original one which can be worked on separately.
- 
+
+Q3. What is the benefit of having a copy of the last known state of the remote stored locally?
+A3. It avoids unexpected conflicts and spares time of figuring out what to remove and what to keep.
