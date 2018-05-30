@@ -43,3 +43,4 @@ git remote: to view and create remotes
 git remote add referal_name link: To add a repository on GitHub as a remote.
 git remote -v: v stands for verbose that means that git will get more information.
 git push: to send my changes to the remote
+git pull referal_name branch_name: to pull branch_name locally 
