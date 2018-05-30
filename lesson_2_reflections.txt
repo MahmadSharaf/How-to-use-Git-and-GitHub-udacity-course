@@ -1,4 +1,12 @@
 Q1. What happens when you initialize a repository? Why do you need to do it?
 
-A1. It created a new repository as it is the first step for version control and start tracking versions and act the GIT functions.
+A1. It created a new repository as it is the first step for version control and
+start tracking versions and act the GIT functions.
 
+Q2. How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+A2. It is an intermediate stage which contains all the files you want to commit
+once you are decided to commit, you just commit those in the staging area.
+It is a preparation stage in which do a virtual commit but has the option to
+rethink it or approve it.
