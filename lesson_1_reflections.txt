@@ -1,0 +1,42 @@
+Q1.How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A1.The version control in my perspective as a perfectionist is a very neat technique,
+in such that not to lose any previous work(versions) neither lose much time in
+trying to figure out what the difference between the current and previous versions.
+
+Q2.How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A2.From my experience as a programmer, I have my moments that I wished not to over-write
+my old versions as I wanted to revise a particular block or a specific function.
+With version-control I don't have to worry anymore as it can be done swiftly.
+
+Q3.What do you think are the pros and cons of manually choosing when to create
+a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A3. automatically saved is not convenient as it saves either intervally, or after
+changed despite that change is. But the good about it that it spares the time for
+when to save and it is now better to save or not yet, it just saves.
+On the other hand, manually saves is much more convenient as it is up to save,
+you decide when it is best to save. But as you have the full control you also have
+the responsibility for saving, you forget the its your mistake.
+
+Q4. Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+A4. Those ones that allow saving multiple files in one commit I guess because they
+serve programming languages specifically and their most concern are those language
+best suites them. While the other ones are more generic therefore, they have to
+act in way which suites everybody.
+
+Q5. How can you use the commands git log and git diff to view the history of files?
+
+A5. at the cmd opened at the directory of the files, we can use "git log" to look
+at all the commits done on this file. And to compare the difference between two commits
+use "git diff first_ID second_id". To get colored diff output, run "git config --global color.ui auto"
+
+Q6. How might using version control make you more confident to make changes that could break something?
+
+A6. As I can check the version where the bug was first introduced by checking out
+the previous versions one by one until I find that version and then compare it using
+"git diff" with the very pervious version that was that didn't that bug. So now I
+can save time searching a trying to debug instead of just comparing colored lines.
