@@ -3,3 +3,13 @@ automatically stay up-to-date with your remote repository?
 
 Because it might get conflict while working on a common file and the update discards
 all unsaved progess.
+
+Q2. Describe the differences between forks, clones, and branches.
+When would you use one instead of another?
+
+A2. Forks: a feature in GitHub which takes a clone of another one's repository
+and add it at my account.
+Clones: takes a copy remotely to a local side and it can be local to local.
+Branches: It is not related to them I guess, it creates a new edition or a separated
+version than the original one which can be worked on separately.
+ 
