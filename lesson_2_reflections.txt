@@ -25,6 +25,13 @@ without losing the original files. "git branch branch_name" to create a new file
 "git checkout branch_name" to commit changes to this branch and "git branch" to
 see the branches you have and which one is checked out.
 
-A5. How do the diagrams help you visualize the branch structure?
+Q5. How do the diagrams help you visualize the branch structure?
 
 A5. flowchart diagrams acts like a tree makes it easy to understand
+
+Q6.What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+A6. it combines the two files together; in which adds the common lines and then
+the new lines that were newly added; but do not the case when there some files
+were deleted from the original version. Pretty obvious  
