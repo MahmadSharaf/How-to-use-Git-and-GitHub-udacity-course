@@ -10,3 +10,9 @@ A2. It is an intermediate stage which contains all the files you want to commit
 once you are decided to commit, you just commit those in the staging area.
 It is a preparation stage in which do a virtual commit but has the option to
 rethink it or approve it.
+
+Q3. How can you use the staging area to make sure you have one commit per logical change?
+
+A3. "git diff --staged" compares the files in staging area with the last committed
+files. "git diff" compares the files in the working directory and those in the staged area.
+while "git diff first_id second_id" compares between two commits.
