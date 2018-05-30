@@ -1,0 +1,38 @@
+It is a good idea to introduce yourself to Git with your name and public email address before doing any operation.
+The easiest way to do so is:
+git init: You’ve now initialized the working directory—​you may notice a new directory created, named ".git"
+git clone: Clone a repository into a new directory(could be a link).
+
+
+You have to identify yourself:
+locally:
+git config user.name "name":    This signs your name locally to current repository with name.
+git config user.email "e-mail": this signs your email locally to current repository with e-mail.
+globally:
+git config --global user.name "name":    This signs your name globally to current repository with name.
+git config --global user.email "e-mail": this signs your email globally to current repository with e-mail.
+
+Adding files to the repo:
+git add . or git add file_name: This snapshot is now stored in a temporary staging area which Git calls the "index".
+git commit file_name: This permanently stores the contents of the index in the repository.
+git commit -a: This  will automatically notice any modified (but not new) files, add them to the index, and commit, all in one step.
+
+Check changes:
+git log: Show commit logs.
+git log --graph: shows the commit logs in tree-view.
+git log -n 1: shows only the most recent log.
+git log -p: complete diffs at each step.
+git log --stat --summary: the overview of the change is useful to get a feel of each step.
+git diff: Show changes between commits, commit and working tree, etc
+git diff first_id second_id: changes between first and second ids.
+git diff --cached: You can see what is about to be committed using git diff with the --cached option.
+git status: Show the working tree status
+
+Branching:
+git branch: shows the available branches and identify the current branch with '*'.
+git branch branch_name: creates new branch with branch_name.
+git branch -d branch_name: deletes branch_name
+git checkout branch_name: switch to the branch_name branch.
+
+Merging:
+git merge first_branch second_branch: merges two branches together
