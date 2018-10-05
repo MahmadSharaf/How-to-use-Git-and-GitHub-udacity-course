@@ -1,4 +1,4 @@
-It is a good idea to introduce yourself to Git with your name and public email address before doing any operation.
+﻿It is a good idea to introduce yourself to Git with your name and public email address before doing any operation.
 You have to identify yourself:
 locally:
 git config user.name "name":    This signs your name locally to current repository with name.
@@ -84,3 +84,4 @@ $ bash file_name.sh [remote_repo_link]: pushes modified code to your remote repo
 $ git fetch [referral_name]: gets a sneak peak of the log of the remotely repo.
 $ git fetch [referral_name] [branch_name]: do the same as git pull but without the merging step
 $ git merge [branch_name] [referral_name/branch_name]: merges the commits on the local with remote repos.
+$ git remote rm origin: disconnect local git repo from remote master
